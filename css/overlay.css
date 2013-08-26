@@ -43,6 +43,10 @@ div.slide {
   border-style: solid;
 }
 
+div#about {
+  background-image: url('/images/background.png');
+}
+
 div.right {
   width: 50%;
   float: right;
