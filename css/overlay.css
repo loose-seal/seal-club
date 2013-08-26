@@ -28,6 +28,11 @@ div.button {
   margin: -1px;
 }
 
+a.button {
+  display: block;
+  color: #3f1315;
+}
+
 div.endmenu {
   clear: both;
 }
