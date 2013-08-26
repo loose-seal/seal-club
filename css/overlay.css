@@ -43,6 +43,24 @@ div.slide {
   border-style: solid;
 }
 
+div.right {
+  width: 50%;
+  float: right;
+  text-align: right;
+  margin-right: 5%;
+}
+
+div.left {
+  text-align: left;
+  width: 50%;
+  float: left;
+  margin-left: 5%;
+}
+
+div.blurb {
+  margin-bottom: 5px;
+}
+
 h1 {
   font-family: 'Open Sans', sans-serif;
 }
@@ -53,4 +71,6 @@ h1.massive {
 
 p {
   font-family: 'Ubuntu', sans-serif;
+  font-size: 200%;
 }
+
