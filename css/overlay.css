@@ -1,3 +1,38 @@
+
+
+div.button {
+  float: top;
+  display: in-line;
+
+  background-color: #ff202a;
+  border: 2px solid white;
+  padding-top: 10px;
+  padding-right: 10%;
+  padding-left: 10%
+  align: center;
+  height: 10px;
+  width: 30%;
+}
+
+div.button:hover {
+  background-color: #ff2012;
+}
+
+
+
+div.left {
+  
+}
+
+div.right {
+
+}
+
+div.center {
+
+}
+
+
 html {
   height: 100%;
 }
