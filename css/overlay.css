@@ -10,27 +10,35 @@ body {
 div.menu {
   position: fixed;
   align: center;
-  width: 70%
-  height: 20px;
+  width: 100%;
   top: 5px;
-  right: 15%;
-  left: 15%;
+  margin-right: -3px;
+  margin-left: -1px;
   background-color: white;
 }
 
 div.button {
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 33%;
   float: left;
   text-align: center;
-  border: 2px solid #3f1315;
-  margin: -1px;
+  border: none;
+  background-color: #1f2442;
+}
+
+div.button:hover {
+    background-color: #1f2451;
 }
 
 a.button {
   display: block;
-  color: #3f1315;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: arial;
+  font-weight: bold;
+  
+  
 }
 
 div.endmenu {
@@ -45,6 +53,25 @@ div.slide {
 
 div#about {
   background-image: url('/images/background.png');
+}
+
+div#team {
+  background-color: #f7f8ff;
+}
+
+div.rightteam {
+    float: right;
+    width: 20%;
+}
+
+div.teamheader {
+    font-size: 500%;
+}
+
+table {
+  margin-left: 5%;
+  margin-right: 1%;
+  width: 50%;
 }
 
 div.right {
@@ -62,7 +89,7 @@ div.left {
 }
 
 div.blurb {
-  margin-bottom: 5px;
+
 }
 
 h1 {
@@ -78,3 +105,25 @@ p {
   font-size: 200%;
 }
 
+#two {
+     float:left;
+     margin-left:1%;
+     margin-right: 1%;
+}
+
+td {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.desc {
+    height:30%;
+    width:30%;
+}
+
+tr {
+    height: 20px;
+}
+
+div#contact {
+    background-color:#ebdcff;
+}
