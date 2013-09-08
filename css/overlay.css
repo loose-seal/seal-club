@@ -36,8 +36,6 @@ a.button {
   text-decoration: none;
   font-family: arial;
   font-weight: bold;
-  
-  
 }
 
 div.endmenu {
@@ -59,7 +57,7 @@ div#about {
 }
 
 div#team {
-  background-color: #f7f8ff;
+  background-image: url('/images/backgroundtile.png');
 }
 
 div.rightteam {
