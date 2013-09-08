@@ -19,7 +19,7 @@ div.menu {
 div.button {
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 33%;
+  width: 25%;
   float: left;
   text-align: center;
   border: none;
@@ -27,7 +27,7 @@ div.button {
 }
 
 div.button:hover {
-    background-color: #1f2451;
+  background-color: #1f2451;
 }
 
 a.button {
@@ -49,6 +49,12 @@ div.slide {
   border-style: solid;
 }
 
+img.logo {
+  margin: 15% 35% 25% 35%;
+  height: 60%;
+  width: 30%;
+}
+
 div#about {
   background-image: url('/images/background.png');
   background-repeat: no-repeat;
@@ -57,16 +63,22 @@ div#about {
 }
 
 div#team {
-  background-image: url('/images/backgroundtile.png');
+  background-image: url('/images/backgroundtilelite.png');
 }
 
 div.rightteam {
-    float: right;
-    width: 20%;
+  float: right;
+  width: 20%;
 }
 
-div.teamheader {
-    font-size: 500%;
+h1.teamheader {
+  font-size: 500%;
+}
+
+div#teaminfo {
+  float:left;
+  margin-left:1%;
+  margin-right: 1%;
 }
 
 table {
@@ -106,15 +118,14 @@ p {
   font-size: 200%;
 }
 
-#two {
-     float:left;
-     margin-left:1%;
-     margin-right: 1%;
-}
-
 td {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 10px;
+}
+
+div table tr td img {
+  margin: auto;
 }
 
 .desc {
