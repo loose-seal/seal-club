@@ -19,7 +19,7 @@ div.menu {
 div.button {
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 33%;
+  width: 25%;
   float: left;
   text-align: center;
   border: none;
@@ -49,6 +49,14 @@ div.slide {
   border-style: solid;
 }
 
+img.logo {
+    margin-top: 15%;
+    margin-bottom: 25%;
+    margin-right:35%;
+    margin-left:35%;
+    height: 60%;
+    width: 30%;
+
 div#about {
   background-image: url('/images/background.png');
   background-repeat: no-repeat;
@@ -57,7 +65,7 @@ div#about {
 }
 
 div#team {
-  background-image: url('/images/backgroundtile.png');
+  background-image: url('/images/backgroundtilelite.png');
 }
 
 div.rightteam {
