@@ -125,10 +125,11 @@ td {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
+  background-color: #d8d8ef
 }
 
-div table tr td img {
-  margin: auto;
+.photo {
+  padding; 10%;
   }
 
 .desc {
