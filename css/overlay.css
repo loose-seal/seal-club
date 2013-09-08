@@ -141,5 +141,9 @@ tr {
 }
 
 div#contact {
-  background-color:#ebdcff;
+  background-image: url('/images/backgroundtile2.png');
+}
+
+h1.contactheader {
+  font-size: 700%;
 }
