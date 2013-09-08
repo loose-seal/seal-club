@@ -74,7 +74,7 @@ div.rightteam {
     width: 20%;
 }
 
-div.teamheader {
+h1.teamheader {
     font-size: 500%;
 }
 
@@ -115,7 +115,7 @@ p {
   font-size: 200%;
 }
 
-#two {
+#teaminfo {
      float:left;
      margin-left:1%;
      margin-right: 1%;
@@ -124,7 +124,12 @@ p {
 td {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 10px;
 }
+
+div table tr td img {
+  margin: auto;
+  }
 
 .desc {
     height:30%;
